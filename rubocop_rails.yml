@@ -1,0 +1,9 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  Include:
+    - db/migrate/*
+
+Rails/SchemaComment:
+  Enabled: true
