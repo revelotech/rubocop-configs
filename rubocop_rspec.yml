@@ -2,7 +2,7 @@ require:
   - rubocop-rspec
 
 RSpec/AnyInstance:
-  Enabled: false
+  Enabled: true
 RSpec/ExampleLength:
   Enabled: false
 RSpec/Focus:
@@ -12,12 +12,12 @@ RSpec/MultipleExpectations:
 RSpec/NestedGroups:
   Max: 5
 RSpec/VerifiedDoubles:
-  Enabled: false
+  Enabled: true
 RSpec/DescribeClass:
-  Enabled: false
+  Enabled: true
 RSpec/VerifiedDoubleReference:
-  Enabled: false
+  Enabled: true
 RSpec/NamedSubject:
-  Enabled: false
+  Enabled: true
 RSpec/MessageSpies:
   Enabled: true
