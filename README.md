@@ -7,9 +7,10 @@ For reference on how to inherit this files, please check the [official Rubocop d
 
 Within this repo, you will find different YAML files meant for Rubocop and its differents extensions.
 
+- [X] [Rubocop](https://github.com/contratadome/rubocop-configs/blob/main/rubocop.yml)
 - [X] [Rubocop Rails](https://github.com/contratadome/rubocop-configs/blob/main/rubocop_rails.yml)
 - [X] [Rubocop Performance](https://github.com/contratadome/rubocop-configs/blob/main/rubocop_performance.yml)
 - [X] [Rubocop Rspec](https://github.com/contratadome/rubocop-configs/blob/main/rubocop_rspec.yml)
 
 **TODO:**
-- [ ] Rubocop (base)
+- Improve Rubocop base config
