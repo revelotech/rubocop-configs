@@ -3,3 +3,10 @@ Layout/FirstHashElementIndentation:
 
 Layout/LineLength:
   AllowedPatterns: ['^\s*#'] # Allow long lines if the first character that is not whitespace is a # (comment)
+
+Metrics/ClassLength:
+  CountAsOne:
+    - 'array'
+    - 'hash'
+Metrics/AbcSize:
+  CountRepeatedAttributes: false
