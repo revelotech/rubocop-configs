@@ -10,3 +10,6 @@ Metrics/ClassLength:
     - 'hash'
 Metrics/AbcSize:
   CountRepeatedAttributes: false
+
+Style/FormatStringToken:
+  EnforcedStyle: template
