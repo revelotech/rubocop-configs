@@ -11,5 +11,12 @@ Metrics/ClassLength:
 Metrics/AbcSize:
   CountRepeatedAttributes: false
 
+Metrics/MethodLength:
+  CountAsOne:
+    - 'array'
+    - 'hash'
+    - 'heredoc'
+    - 'method_call'
+
 Style/FormatStringToken:
   EnforcedStyle: template
