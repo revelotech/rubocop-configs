@@ -8,6 +8,9 @@ Metrics/ClassLength:
   CountAsOne:
     - 'array'
     - 'hash'
+    - 'heredoc'
+    - 'method_call'
+
 Metrics/AbcSize:
   CountRepeatedAttributes: false
 
