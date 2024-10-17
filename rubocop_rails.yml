@@ -7,3 +7,6 @@ AllCops:
 
 Rails/SchemaComment:
   Enabled: true
+
+Rails/EnumSyntax:
+  Enabled: true
