@@ -8,5 +8,6 @@ AllCops:
 Rails/SchemaComment:
   Enabled: true
 
-Rails/StrongParametersExpect:
-  Enabled: false
+# Enable this cop when rubocop-rails version >= 2.29.0 is used on all projects
+# Rails/StrongParametersExpect:
+#  Enabled: false
